@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.site-footer {
+  background-color: #eeeeec;
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
