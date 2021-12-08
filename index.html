@@ -24,22 +24,38 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip({trigger : 'hover'});
+    });
+  </script>
+
   <section id="top-section" class="jumbotron text-center" style="margin-bottom:0">
     <img class="profile-picture" src="assets/img/profile.jpg" width="200"/>
     <h1>Francesco Mucci</h1>
     <p>Computer Science Master Student at
-      <a class="link-dark" href="https://www.informaticamagistrale.unifi.it/changelang-eng.html" target="_blank" rel="noopener">University of Florence</a>
+      <a class="link-dark" href="https://www.informaticamagistrale.unifi.it/changelang-eng.html"
+         target="_blank" rel="noopener">University of Florence</a>
     </p>
     <ul class="list-inline">
-      <li class="list-inline-item"><a class="link-dark" href="mailto:francesco.mucci@stud.unifi.it" target="_blank" rel="noopener">
-        <i class="fas fa-envelope fa-lg px-1" aria-label="Send me an email link"></i>
-      </a></li>
-      <li class="list-inline-item"><a class="link-dark" href="https://github.com/FrancescoMucci" target="_blank" rel="noopener">
-        <i class="fab fa-github fa-lg px-1" aria-label="View my GitHub profile link"></i>
-      </a></li>
-      <li class="list-inline-item"><a class="link-dark" href="https://www.goodreads.com/mucciacios" target="_blank" rel="noopener">
-        <i class="fab fa-goodreads fa-lg px-1" aria-label="View my Goodreads profile link"></i>
-      </a></li>
+      <li class="list-inline-item">
+        <a class="link-dark" href="mailto:francesco.mucci@stud.unifi.it" target="_blank" rel="noopener"
+           data-toggle="tooltip" data-placement="bottom" title="Send me an email">
+          <i class="fas fa-envelope fa-lg px-1" aria-label="Send me an email link"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="link-dark" href="https://github.com/FrancescoMucci" target="_blank" rel="noopener"
+           data-toggle="tooltip" data-placement="bottom" title="View my GitHub profile">
+          <i class="fab fa-github fa-lg px-1" aria-label="View my GitHub profile link"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="link-dark" href="https://www.goodreads.com/mucciacios" target="_blank" rel="noopener"
+           data-toggle="tooltip" data-placement="bottom" title="View my Goodreads profile">
+          <i class="fab fa-goodreads fa-lg px-1" aria-label="View my Goodreads profile link"></i>
+        </a>
+      </li>
     </ul>
   </section>
 
@@ -67,7 +83,8 @@
     <h1>About me</h1>
       <p>
         <span>I'm a computer science master student at</span>
-        <a class="link-dark" href="https://www.informaticamagistrale.unifi.it/changelang-eng.html" target="_blank" rel="noopener">University of Florence.</a>
+        <a class="link-dark" href="https://www.informaticamagistrale.unifi.it/changelang-eng.html"
+           target="_blank" rel="noopener">University of Florence.</a>
         <br>
         <span>My ambition is to pursue a career in computer science education and/or research;</span>
         <span>speaking of, I'm especially interested in the following research areas:</span>
