@@ -7,3 +7,12 @@
 .profile-picture {
   border-radius: 50%;
 }
+
+.pageheader {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../img/eberhard-grossgasteiger-r4qFbJXsR9c-1920x1080-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
